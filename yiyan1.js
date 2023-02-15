@@ -1,6 +1,6 @@
 [rewrite_local]
 #一言
-^https:\/\/app\.yiyan\.art\/yiyan\/getuserinfoandbooklist url script-response-body yiyan1.js
+^https:\/\/app\.yiyan\.art\/yiyan\/getuserinfoandbooklist.+$ url script-response-body yiyan1.js
 
 [MITM]
 hostname = app.yiyan.art
