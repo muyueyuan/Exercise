@@ -1,6 +1,6 @@
 [rewrite_local]
 #一言验证
-^https:\/\/app\.yiyan\.art\/yiyan\/checkpro url script-response-body https://raw.githubusercontent.com/muyueyuan/Exercise/main/yiyan2.js
+^https:\/\/app\.yiyan\.art\/yiyan\/checkpro?YanYan=2&v=4\.15 url script-response-body https://raw.githubusercontent.com/muyueyuan/Exercise/main/yiyan2.js
 
 [MITM]
 hostname = app.yiyan.art
