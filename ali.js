@@ -1,6 +1,6 @@
 [rewrite_local]
 #阿里
-^https:\/\/api\.aliyundrive\.com url script-response-body ali.js
+^https:\/\/api\.aliyundrive\.com url script-response-body https://raw.githubusercontent.com/muyueyuan/Exercise/main/ali.js
 
 [MITM]
 hostname = api.aliyundrive.com
