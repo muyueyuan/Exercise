@@ -6,9 +6,9 @@
 hostname = app.yiyan.art
 
 var body = $response.body; // 声明一个变量body并以响应消息体赋值
-var obj = JSON.parse(body); // JSON.parse()将json形式的body转变成对象处理
+var objc = JSON.parse(body); // JSON.parse()将json形式的body转变成对象处理
 
-obj = {
+objc = {
   "user": {
     "uid": "3936845",
     "smallavatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLWMx3KMBra5dibKiciaxexLJce8icYQH3K3ykhGicSF0tCYkVc01iaK7Lq0O8wjJDePjafgb5B4icFLAYWQ/132",
